@@ -1,10 +1,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Lato&family=Roboto&family=Roboto+Condensed:ital,wght@1,700&display=swap");
+@media screen and (min-width: 768px) {
+  body {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 991px) {
+  body {
+    width: 500px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
+  width: 100%;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   color: #2e2d7e;
+}
+
+header h1 {
+  font-size: 350%;
+  text-align: center;
+  width: 50%;
+  padding: 0px 20px;
+}
+header h2 {
+  margin: auto;
+  text-align: center;
+  color: #06acee;
+  font-size: 200%;
+  width: 65%;
+}
+header h3 {
+  font-size: 225%;
+  text-align: center;
+}
+header div {
+  margin: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 a:link,
