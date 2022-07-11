@@ -1,1 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Lato&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  color: #2e2d7e;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+.login {
+  height: 10vh;
+  background-color: #fafafa;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: solid #2e2d7e 2px;
+}
