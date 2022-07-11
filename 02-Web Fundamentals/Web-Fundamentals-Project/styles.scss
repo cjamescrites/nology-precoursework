@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Lato&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Lato&family=Roboto&family=Roboto+Condensed:ital,wght@1,700&display=swap');
 
 $font-logo: "Josefin sans" , sans-serif;
 $font-titles: "Lato" , sans-serif;
 $font-general: "Roboto" , sans-serif;
+$font-generalTitle: "Roboto Condensed" , sans-serif;
 
 $color-primary: #2e2d7e;
 $color-logo: #2e2d7e;
@@ -24,11 +25,15 @@ a:visited {
 }
 
 .login {
-    height:10vh;
+    display:block;
+    width: 125px;
+    color: $color-primary;
+    font-family: $font-generalTitle;
+    font-size: 150%;
     background-color: $color-white;
-    padding: 0 40px;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    border: solid $color-logo 2px;
+    padding: 20px 20px;
+    text-align: center;
+    border: 2px solid $color-primary;
+    border-radius: 8px;
+
 }
