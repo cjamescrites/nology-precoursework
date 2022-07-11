@@ -32,6 +32,9 @@ $color-white: #fafafa;
     color: $color-primary;
 }
 
+/* Layout */
+/* Header */
+
 header {
     h1 {
         font-size: 350%;
@@ -61,6 +64,7 @@ header {
     }    
 }
 
+/* Main */
 
 main {
     h4 {
@@ -69,18 +73,43 @@ main {
         color: $color-title;
       }
 
+    h5 {
+        font-size: 150%;
+        text-align: center;
+    }
+    a {
+        
+    }
+
+    h6{
+        font-size: 225%;
+        text-align: center;
+    }
+
+    h7, h8, h9, h10 {
+        font-size: 125%;
+        text-align: center;
+    }
+
     div {
         margin: 100px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
         } 
 }
 
+/* Footer */
 
 footer {
+
+    a{
+        font-size: 225%;
+        text-align: center;
+     }
     div{
-        margin: 100px;
+        margin: 50px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -88,6 +117,7 @@ footer {
     }
 }
 
+/* Components */
 
 a:link,
 a:visited {
@@ -106,4 +136,17 @@ a:visited {
     border: 2px solid $color-primary;
     border-radius: 8px;
 
+}
+
+.button {
+    display:block;
+    width: 300px;
+    color: $color-white;
+    font-family: $font-generalTitle;
+    font-size: 150%;
+    background-color: $color-primary;
+    padding: 20px 20px;
+    text-align: center;
+    border: 2px solid $color-primary;
+    border-radius: 8px;
 }

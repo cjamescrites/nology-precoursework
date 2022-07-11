@@ -18,6 +18,8 @@
   color: #2e2d7e;
 }
 
+/* Layout */
+/* Header */
 header h1 {
   font-size: 350%;
   text-align: center;
@@ -42,26 +44,46 @@ header div {
   justify-content: space-between;
 }
 
+/* Main */
 main h4 {
   font-size: 200%;
   text-align: center;
   color: #06acee;
+}
+main h5 {
+  font-size: 150%;
+  text-align: center;
+}
+main h6 {
+  font-size: 225%;
+  text-align: center;
+}
+main h7, main h8, main h9, main h10 {
+  font-size: 125%;
+  text-align: center;
 }
 main div {
   margin: 100px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
+/* Footer */
+footer a {
+  font-size: 225%;
+  text-align: center;
+}
 footer div {
-  margin: 100px;
+  margin: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   text-align: center;
 }
 
+/* Components */
 a:link,
 a:visited {
   text-decoration: none;
@@ -74,6 +96,19 @@ a:visited {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 150%;
   background-color: #fafafa;
+  padding: 20px 20px;
+  text-align: center;
+  border: 2px solid #2e2d7e;
+  border-radius: 8px;
+}
+
+.button {
+  display: block;
+  width: 300px;
+  color: #fafafa;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 150%;
+  background-color: #2e2d7e;
   padding: 20px 20px;
   text-align: center;
   border: 2px solid #2e2d7e;
