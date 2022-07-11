@@ -35,13 +35,18 @@ $color-white: #fafafa;
 /* Layout */
 /* Header */
 
+div {
+    margin: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }    
+
 header {
-    h1 {
-        font-size: 350%;
-        text-align: center;
-        width: 50%;
-        padding: 0px 20px;
-      }
+
+    #Logo {
+        max-height: 75px;
+    }
 
      h2 {
         margin: auto;
@@ -77,9 +82,6 @@ main {
         font-size: 150%;
         text-align: center;
     }
-    a {
-        
-    }
 
     h6{
         font-size: 225%;
@@ -88,7 +90,7 @@ main {
 
     h7, h8, h9, h10 {
         font-size: 125%;
-        text-align: center;
+        text-align: left;
     }
 
     div {
@@ -135,18 +137,29 @@ a:visited {
     text-align: center;
     border: 2px solid $color-primary;
     border-radius: 8px;
+}
 
+.login:hover {
+    color: $color-white;
+    background-color: $color-primary;
 }
 
 .button {
     display:block;
-    width: 300px;
+    width: 50%;
+    align-items: center;
     color: $color-white;
     font-family: $font-generalTitle;
-    font-size: 150%;
+    font-size: 175%;
     background-color: $color-primary;
     padding: 20px 20px;
     text-align: center;
+    justify-content: center;
     border: 2px solid $color-primary;
     border-radius: 8px;
+}
+
+.button:hover {
+    color: $color-primary;
+    background-color: $color-white;
 }

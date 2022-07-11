@@ -20,11 +20,15 @@
 
 /* Layout */
 /* Header */
-header h1 {
-  font-size: 350%;
-  text-align: center;
-  width: 50%;
-  padding: 0px 20px;
+div {
+  margin: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header #Logo {
+  max-height: 75px;
 }
 header h2 {
   margin: auto;
@@ -60,7 +64,7 @@ main h6 {
 }
 main h7, main h8, main h9, main h10 {
   font-size: 125%;
-  text-align: center;
+  text-align: left;
 }
 main div {
   margin: 100px;
@@ -102,15 +106,33 @@ a:visited {
   border-radius: 8px;
 }
 
+#Logo.hover {
+  border: solid #2e2d7e 1px;
+  color: #fafafa;
+  background-color: #2e2d7e;
+}
+
+.login:hover {
+  color: #fafafa;
+  background-color: #2e2d7e;
+}
+
 .button {
   display: block;
-  width: 300px;
+  width: 50%;
+  align-items: center;
   color: #fafafa;
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 150%;
+  font-size: 175%;
   background-color: #2e2d7e;
   padding: 20px 20px;
   text-align: center;
+  justify-content: center;
   border: 2px solid #2e2d7e;
   border-radius: 8px;
+}
+
+.button:hover {
+  color: #2e2d7e;
+  background-color: #fafafa;
 }
