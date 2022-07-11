@@ -42,6 +42,26 @@ header div {
   justify-content: space-between;
 }
 
+main h4 {
+  font-size: 200%;
+  text-align: center;
+  color: #06acee;
+}
+main div {
+  margin: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+footer div {
+  margin: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+
 a:link,
 a:visited {
   text-decoration: none;

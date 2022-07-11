@@ -61,12 +61,38 @@ header {
     }    
 }
 
+
+main {
+    h4 {
+        font-size: 200%;
+        text-align: center;
+        color: $color-title;
+      }
+
+    div {
+        margin: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        } 
+}
+
+
+footer {
+    div{
+        margin: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+    }
+}
+
+
 a:link,
 a:visited {
     text-decoration: none;
 }
-
-
 
 .login {
     display:block;
