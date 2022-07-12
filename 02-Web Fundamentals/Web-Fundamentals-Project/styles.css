@@ -1,14 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Lato&family=Roboto&family=Roboto+Condensed:ital,wght@1,700&display=swap");
-@media screen and (min-width: 768px) {
-  body {
-    width: 300px;
-  }
-}
-@media screen and (min-width: 991px) {
-  body {
-    width: 500px;
-  }
-}
 * {
   margin: 0;
   padding: 0;
@@ -136,4 +126,15 @@ a:visited {
 .button:hover {
   color: #2e2d7e;
   background-color: #fafafa;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    width: 300px;
+  }
+}
+@media screen and (min-width: 991px) {
+  body {
+    width: 500px;
+  }
 }

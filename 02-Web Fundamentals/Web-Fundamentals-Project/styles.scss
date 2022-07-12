@@ -1,17 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Lato&family=Roboto&family=Roboto+Condensed:ital,wght@1,700&display=swap');
 
-@media screen and (min-width: 768px) {
-    body {
-        width: 300px;
-    }
-}
-
-@media screen and (min-width: 991px) {
-    body {
-        width: 500px;
-    }
-}
-
 $font-logo: "Josefin sans" , sans-serif;
 $font-titles: "Lato" , sans-serif;
 $font-general: "Roboto" , sans-serif;
@@ -169,4 +157,16 @@ a:visited {
 .button:hover {
     color: $color-primary;
     background-color: $color-white;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    body {
+        width: 500px;
+    }
 }
