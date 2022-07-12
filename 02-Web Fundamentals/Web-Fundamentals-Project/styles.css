@@ -12,7 +12,6 @@
 * {
   margin: 0;
   padding: 0;
-  width: 100%;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
   color: #2e2d7e;
@@ -24,11 +23,16 @@ div {
   margin: 100px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
 }
 
+header {
+  width: 100%;
+}
 header #Logo {
   max-height: 75px;
+  width: 200px;
 }
 header h2 {
   margin: auto;
@@ -45,10 +49,14 @@ header div {
   margin: 100px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: space-between;
 }
 
 /* Main */
+main {
+  width: 100%;
+}
 main h4 {
   font-size: 200%;
   text-align: center;
@@ -63,6 +71,9 @@ main h6 {
   text-align: center;
 }
 main h7, main h8, main h9, main h10 {
+  height: 100px;
+  width: 200px;
+  padding: 2px;
   font-size: 125%;
   text-align: left;
 }
@@ -70,21 +81,18 @@ main div {
   margin: 100px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
 }
 
 /* Footer */
 footer a {
   font-size: 225%;
-  text-align: center;
 }
 footer div {
   margin: 50px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Components */
@@ -106,27 +114,20 @@ a:visited {
   border-radius: 8px;
 }
 
-#Logo.hover {
-  border: solid #2e2d7e 1px;
-  color: #fafafa;
-  background-color: #2e2d7e;
-}
-
 .login:hover {
   color: #fafafa;
   background-color: #2e2d7e;
 }
 
 .button {
-  display: block;
-  width: 50%;
+  display: flex;
   align-items: center;
   color: #fafafa;
   font-family: "Roboto Condensed", sans-serif;
   font-size: 175%;
   background-color: #2e2d7e;
   padding: 20px 20px;
-  text-align: center;
+  align-items: center;
   justify-content: center;
   border: 2px solid #2e2d7e;
   border-radius: 8px;

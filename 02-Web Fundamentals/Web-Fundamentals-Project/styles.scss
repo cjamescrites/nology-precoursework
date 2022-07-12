@@ -26,7 +26,6 @@ $color-white: #fafafa;
 * {
     margin: 0;
     padding: 0;
-    width: 100%;
     box-sizing: border-box;
     font-family: $font-general;
     color: $color-primary;
@@ -39,21 +38,26 @@ div {
     margin: 100px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
     }    
 
-header {
 
-    #Logo {
-        max-height: 75px;
+
+header {
+    width: 100%;
+
+        #Logo {
+            max-height: 75px;
+            width: 200px;
     }
 
-     h2 {
-        margin: auto;
-        text-align: center;
-        color: $color-title;
-        font-size: 200%;
-        width: 65%
+         h2 {
+            margin: auto;
+            text-align: center;
+            color: $color-title;
+            font-size: 200%;
+            width: 65%
      }
 
      h3 {
@@ -65,13 +69,16 @@ header {
     margin: 100px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: space-between;
     }    
 }
 
 /* Main */
 
 main {
+    width: 100%;
+
     h4 {
         font-size: 200%;
         text-align: center;
@@ -89,6 +96,9 @@ main {
     }
 
     h7, h8, h9, h10 {
+        height: 100px;
+        width: 200px;
+        padding: 2px;
         font-size: 125%;
         text-align: left;
     }
@@ -97,8 +107,6 @@ main {
         margin: 100px;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
         } 
 }
 
@@ -108,14 +116,14 @@ footer {
 
     a{
         font-size: 225%;
-        text-align: center;
      }
+
     div{
         margin: 50px;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        text-align: center;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -145,15 +153,14 @@ a:visited {
 }
 
 .button {
-    display:block;
-    width: 50%;
+    display:flex;
     align-items: center;
     color: $color-white;
     font-family: $font-generalTitle;
     font-size: 175%;
     background-color: $color-primary;
     padding: 20px 20px;
-    text-align: center;
+    align-items: center;
     justify-content: center;
     border: 2px solid $color-primary;
     border-radius: 8px;
